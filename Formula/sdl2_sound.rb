@@ -18,9 +18,7 @@ class Sdl2Sound < Formula
   end
 
   depends_on "cmake" => :build
-  depends_on "libmodplug"
   depends_on "sdl2"
-  depends_on "timidity"
 
   def install
     args = std_cmake_args
